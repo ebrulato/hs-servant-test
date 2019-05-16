@@ -61,7 +61,7 @@ mv /usr/local/bin/docker-credential-osxkeychain /usr/local/bin/docker-credential
 (see https://github.com/docker/for-mac/issues/2295)*
 
 ```sh
-docker push ebrulato/hs-servant-test
+docker push [DOCKER_ID]/hs-servant-test
 ```
 
 Then you may perform local deployment (not tested).

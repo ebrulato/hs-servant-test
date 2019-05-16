@@ -69,4 +69,4 @@ app1 :: Application
 app1 = serve userAPI server1
 
 startServer :: IO ()
-startServer = run 8081 app1
+startServer = run 8080 app1

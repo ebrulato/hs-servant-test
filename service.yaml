@@ -1,0 +1,15 @@
+apiVersion: serving.knative.dev/v1alpha1
+kind: Service
+metadata:
+  name: hs-servant-test
+  namespace: default
+spec:
+  runLatest:
+    configuration:
+      revisionTemplate:
+        spec:
+          container:
+            image: docker.io/ebrulato/hs-servant-test
+            env:
+              - name: TARGET
+                value: "Haskell Servant Sample v1"

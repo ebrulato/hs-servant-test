@@ -3,7 +3,6 @@
 This repository contains a simple server based on _**servant**_, and deploy it on **Google Cloud Run**, with **Knative**.
 
 ## Local Test
----
 
 ### Build
 To build the server.
@@ -27,7 +26,7 @@ This code may have some improvement:
 * Usage of the environment variable **PORT** to avoid PORT hard code.
 
 ## Google Cloud Run
----
+
 Note that you have to activate this service on on your project.
 ### Build the knative image
 You don't have to build the docker image localy.

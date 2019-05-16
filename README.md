@@ -50,7 +50,7 @@ This build will be performed locally.
 Be sure to have enougth memory (and close other app if necessary).
 Delete the cabal file to use correctly the stack configuration
 ```sh
-docker build -t ebrulato/hs-servant-test .
+docker build -t [DOCKER_ID]/hs-servant-test .
 ```
 Then you have to login your docker account
 ```sh
